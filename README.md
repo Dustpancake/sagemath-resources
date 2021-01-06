@@ -10,7 +10,7 @@ The [official SageMath Docker images](https://hub.docker.com/u/sagemath/#!) requ
 ```bash
 docker pull sagemath/sagemath:latest-py3
 ```
-to get the Python3 version of SageMath (I'm unsure if the tag `latest` still maps to py2?).
+to get the Python3 version of SageMath (I'm unsure if the tag `latest` still maps to py2?). Another point to note is SageMath is now on relase 9.2, however the docker images only have 9.2 listed as a beta release, with no RC. Consequently, I have updated my machine to use `9.3.beta6-py3`, as to have access to later features and bugfixes.
 
 The default working directory of the sagemath docker image is
 ```
